@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+    #log{
+        width: 500px;
+        height: 50px;
+        border: 1px solid black  ;
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+        background-color: coral;
+        border-radius: 10px;
+    }
+    #finish{
+        width: 500px;
+        height: 50px;
+        border: 1px solid black  ;
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+        background-color:crimson;
+        border-radius: 10px ;
+    }
+    .button{
+        display: flex;
+        flex-direction: row;
+    }
+    button{
+        font-size: 20px ;
+        padding: 10px 20px ;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+</style>
+
+</head>
+<body style="background-color: pink;">
+    <div class="container">
+        <h1 style="border: solid black 2px; padding: 2px; border-radius: 10px;">Keylogger</h1>
+    <p>I KNOW WHAT YOU ARE TYPING!</p>
+    
+    <div class="butt">
+        <button id="startbtn">Start Logging Keypresses</button> 
+        <button id="stopbtn">Stop Logging Keypresses</button>
+    </div>
+    <div class="button">
+        <div id="log"></div>
+        <div id="finish" ></div>
+    </div>
+</div>
+<script src="/script.js"></script>
+</body>
+</html> 
